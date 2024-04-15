@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/front"
+    tools:context=".HomeFragment">
+
+
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="#191970"
+        android:orientation="vertical"
+        android:padding="5dp">
+
+
+
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_below="@id/ll1"
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="1">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_margin="10dp"
+                android:layout_marginLeft="20dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="86dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/dogres" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Rescue &amp; Service"
+                        android:textSize="18sp"
+                        android:layout_marginTop="15dp"
+                       android:gravity="center"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif"/>
+
+                    <Button
+                        android:id="@+id/buttonx"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:shadowColor="@color/white"
+                        android:text="Proceed"
+                        android:layout_marginTop="28dp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_margin="10dp"
+                android:layout_marginRight="20dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="79dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/animalshelter" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="NGO's &amp; Animal Shelter"
+                        android:textSize="16sp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif"/>
+
+                    <Button
+                        android:id="@+id/button12"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:shadowColor="@color/white"
+                        android:layout_marginTop="28dp"
+                        android:text="Proceed"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="88dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/animalcomp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Register Complaint"
+                        android:layout_marginTop="15dp"
+                        android:textSize="18sp"
+                        android:gravity="center"
+                        android:textColor="@color/white"
+                        android:fontFamily="sans-serif"/>
+
+                    <Button
+                        android:id="@+id/button13"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:shadowColor="@color/white"
+                        android:layout_marginTop="28dp"
+                        android:text="Proceed"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/a1"
+                android:layout_width="150dp"
+                android:layout_height="230dp"
+                android:layout_margin="10dp"
+                app:cardBackgroundColor="@color/black"
+                app:cardCornerRadius="15dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="90dp"
+                        android:layout_gravity="center"
+                        android:background="@drawable/animalfos" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Foster &amp; Veterinary"
+                        android:textSize="18sp"
+                        android:textColor="@color/white"
+                        android:gravity="center"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif"/>
+
+                    <Button
+                        android:id="@+id/button14"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/white"
+                        android:shadowColor="@color/white"
+                        android:text="Proceed"
+                        android:layout_marginTop="28dp"
+                        android:textColor="@color/black" />
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+           </LinearLayout>
+
+<!--    <Button-->
+<!--        android:id="@+id/fm"-->
+<!--        android:layout_width="100dp"-->
+<!--        android:layout_height="80dp"-->
+<!--        android:layout_marginLeft="270dp"-->
+<!--      android:layout_alignParentEnd="true"-->
+<!--     android:layout_alignParentBottom="true"-->
+<!--        android:backgroundTint="#20002696"-->
+<!--        android:onClick="onClick"-->
+<!--        android:text="+"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textSize="40dp" />-->
+
+
+    <!--    <LinearLayout-->
+
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:background="#191970"-->
+<!--        android:orientation="vertical"-->
+<!--        android:padding="5dp">-->
+
+
+
+
+
+
+<!--    </LinearLayout>-->
+
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="38dp"-->
+<!--        android:orientation="vertical">-->
+
+<!--        <LinearLayout-->
+
+
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="60dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:background="@drawable/math_bg"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="3dp">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/buttonx"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:backgroundTint="#00404040"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="3dp"-->
+<!--                android:text="RESCUE AND SERVICE"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/blue"-->
+<!--                android:textSize="23sp"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:background="@drawable/phy_bg"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="0dp">-->
+<!--            <Button-->
+<!--                android:id="@+id/button12"-->
+<!--                android:text="NGO'S AND ANIMAL SHELTER"-->
+<!--                android:textColor="@color/blue"-->
+<!--                android:textSize="23sp"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:backgroundTint="#00404040"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="3dp"/>-->
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:orientation="horizontal"/>-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:background="@drawable/geo_bg"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="3dp">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/button13"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:backgroundTint="#00404040"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="3dp"-->
+<!--                android:text="REGISTER COMPLAINT"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:textColor="@color/blue"-->
+<!--                android:textSize="23sp" />-->
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="320dp"-->
+<!--            android:layout_height="100dp"-->
+<!--            android:layout_gravity="center"-->
+<!--            android:layout_marginLeft="50dp"-->
+<!--            android:layout_marginTop="30dp"-->
+<!--            android:layout_marginRight="50dp"-->
+<!--            android:background="@drawable/f_bg"-->
+<!--            android:orientation="horizontal"-->
+<!--            android:padding="3dp">-->
+<!--            <Button-->
+<!--                android:id="@+id/button14"-->
+<!--                android:text="FOSTER"-->
+<!--                android:textColor="@color/blue"-->
+<!--                android:textSize="23sp"-->
+<!--                android:textAlignment="viewStart"-->
+<!--                android:layout_width="match_parent"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:backgroundTint="#00404040"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:padding="3dp"/>-->
+
+
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="vertical">-->
+
+
+
+<!--            </LinearLayout>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--    </LinearLayout>-->
+
+
+</RelativeLayout>
+
+
+

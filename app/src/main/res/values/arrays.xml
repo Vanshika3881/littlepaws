@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Other resources -->
+
+    <array name="color_options">
+        <item>Black</item>
+        <item>White</item>
+        <item>Lavender</item>
+        <item>purple_200</item>
+        <item>yellow</item>
+        <item>pink</item>
+        <item>dark_pink</item>
+        <item>brown</item>
+        <item>orange</item>
+    </array>
+</resources>

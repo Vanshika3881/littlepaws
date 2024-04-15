@@ -1,0 +1,115 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/profile"
+    tools:context=".details">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PROFILE"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="39sp"
+        android:layout_marginTop="25sp"/>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/ca1"
+        android:layout_width="550dp"
+        android:layout_height="700dp"
+        android:layout_marginTop="130dp"
+        app:cardCornerRadius="50sp"
+        app:cardPreventCornerOverlap="true"
+        app:cardBackgroundColor="#E2FAE0FF"
+        android:alpha="0.7"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="30sp"
+        android:layout_marginBottom="100sp">
+
+
+        <TextView
+            android:id="@+id/editTextText"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.447"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.077" />
+
+        <TextView
+            android:id="@+id/editTextTextPostalAddress"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="110dp"
+            android:textColor="@color/black"
+            android:textSize="22dp"
+            android:textColorHint="@color/black"
+            android:layout_marginLeft="20dp"
+            android:hint="Pin Code"
+            android:inputType="textPostalAddress" />
+
+        <TextView
+            android:id="@+id/editTextPhone"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="phone"
+            android:textSize="22dp"
+            android:layout_marginLeft="20dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="Phone"
+            android:layout_marginTop="300dp"/>
+        <TextView
+            android:id="@+id/editTextText2"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:layout_marginTop="240dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="22dp"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            android:hint="City"
+            android:inputType="text"/>
+
+        <TextView
+            android:id="@+id/editTextText3"
+            android:textColor="@color/black"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/black"
+            android:ems="10"
+            android:layout_marginTop="175dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="22dp"
+            android:hint="State"
+            android:inputType="text"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button"
+            android:layout_width="56dp"
+            android:layout_height="70dp"
+         android:layout_gravity="center"
+           android:layout_marginTop="200dp"
+            android:background="@drawable/baseline_home_24"
+            android:textColor="@color/black"
+            android:textSize="24sp" />
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+</RelativeLayout>

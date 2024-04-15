@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "70679250519",
+    "firebase_url": "https://littlepaws2-8397c-default-rtdb.firebaseio.com",
+    "project_id": "littlepaws2-8397c",
+    "storage_bucket": "littlepaws2-8397c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:70679250519:android:5e18f0607ee9dc5ab40512",
+        "android_client_info": {
+          "package_name": "com.example.littlepaws"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCA1eQJTUHnnUSp1_gw_J8o3T3S58uHRlg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

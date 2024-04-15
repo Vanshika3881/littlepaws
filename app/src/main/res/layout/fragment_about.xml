@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/back"
+    tools:context=".AboutFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/t11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LITTLE PAWS OFFERS YOU THE OPPORTUNITY TO SHOW YOUR LOVE TOWARDS ANIMALS"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:textColor="@color/white"/>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="150dp"
+
+        app:cardBackgroundColor="#E0FFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        app:cardCornerRadius="46dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/avatar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="VANSHIKA"
+            android:layout_marginTop="33dp"
+            android:textColor="@color/teal_700"
+            android:layout_marginLeft="100dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="69dp"
+            android:text="VIT UNIVERSITY,VELLORE"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SECOND YEAR "
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:padding="2sp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="111dp"
+        />
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Integrated M.tech Software Engineering"
+    android:textSize="20sp"
+    android:textColor="@color/teal_700"
+    android:layout_marginTop="149dp"
+    android:layout_marginLeft="165dp"
+    android:padding="3sp"
+    />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_marginTop="190dp"
+        android:layout_gravity="center"
+        app:cardBackgroundColor="#E0FFFF"
+        android:layout_marginLeft="10sp"
+        android:layout_marginRight="10sp"
+        app:cardCornerRadius="46dp">
+
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="250dp"
+            app:srcCompat="@drawable/ava" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="33dp"
+            android:gravity="center"
+            android:text="MANMOHAN"
+            android:textColor="@color/teal_700"
+            android:textSize="25sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="140dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_marginTop="69dp"
+            android:text="VIT UNIVERSITY,VELLORE"
+            android:textColor="@color/teal_700"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SECOND YEAR "
+            android:textColor="@color/teal_700"
+            android:textSize="20sp"
+            android:padding="2sp"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="111dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Integrated M.tech Software Engineering"
+            android:textSize="20sp"
+            android:textColor="@color/teal_700"
+            android:layout_marginTop="149dp"
+            android:layout_marginLeft="165dp"
+            android:padding="3sp"
+            />
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</FrameLayout>
